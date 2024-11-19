@@ -1,0 +1,96 @@
+@media (max-width: 768px) {
+  body {
+    height: auto;
+  }
+
+  main {
+    grid-template-columns: 1fr;
+    grid-template-rows: auto;
+    padding: 2rem;
+  }
+
+  .box {
+    grid-column: auto;
+    grid-row: auto;
+    min-height: 18rem;
+  }
+
+  .box-1 {
+    grid-row: 1 / 2;
+    min-height: 30rem;
+  }
+
+  .box-2 {
+    grid-row: 2 / 3;
+  }
+
+  div.box.box-2 > img {
+    margin: 0;
+    max-width: 35rem;
+  }
+
+  .box-3 {
+    grid-row: 3 / 4;
+    min-height: 26rem;
+    justify-content: start;
+    gap: 2rem;
+    align-items: start;
+  }
+
+  div.box.box-3 > img {
+    max-width: 23rem;
+  }
+
+  .box-4 {
+    grid-row: 4 / 5;
+    text-align: center;
+    gap: 1rem;
+  }
+
+  div.box.box-4 > img {
+    margin: 0;
+    max-width: 34rem;
+  }
+
+  .box-5 {
+    grid-row: 5 / 6;
+    flex-direction: column;
+    text-align: center;
+    gap: 3rem;
+  }
+
+  div.box.box-5 > img {
+    max-width: 26rem;
+  }
+
+  .box-6 {
+    grid-row: 6 / 7;
+    align-items: start;
+  }
+
+  div.box.box-6 > img {
+    max-width: 16rem;
+  }
+
+  .side {
+    grid-row: 7 / 8;
+  }
+
+  .box-7 {
+    align-items: start;
+  }
+
+  div.box.box-7 > img {
+    max-width: 22rem;
+  }
+
+  .box-8 {
+    gap: 3rem;
+    align-items: start;
+    min-height: 40rem;
+  }
+
+  div.box.box-8 > img {
+    max-width: 24rem;
+  }
+}
